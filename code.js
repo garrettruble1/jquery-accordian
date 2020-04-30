@@ -14,9 +14,17 @@ $(document).ready(function(){
 
             //Functionality
 
+            if ($(content1).is(':visible') == true) {
+                $(content1).slideToggle();
+            }
+
+            if ($(content1).is(':hidden') == true) {
+
             $(allMenuContent).slideUp();
 
             $(content1).slideToggle();
+
+            }
 
             //Styling
 
@@ -31,9 +39,17 @@ $(document).ready(function(){
         let content1 = $('#toggle2').parent().next();
         let allMenuContent = $('#toggle2').parent().parent().find('.inner');
 
+        if ($(content1).is(':visible') == true) {
+            $(content1).slideToggle();
+        }
+
+        if ($(content1).is(':hidden') == true) {
+
         $(allMenuContent).slideUp();
 
         $(content1).slideToggle();
+
+        }
         
         $('#toggle2').find('.icon-span').toggleClass('iconRotate');
 
@@ -46,9 +62,17 @@ $(document).ready(function(){
         let content1 = $('#toggle3').parent().next();
         let allMenuContent = $('#toggle3').parent().parent().find('.inner');
 
+        if ($(content1).is(':visible') == true) {
+            $(content1).slideToggle();
+        }
+
+        if ($(content1).is(':hidden') == true) {
+
         $(allMenuContent).slideUp();
 
         $(content1).slideToggle();
+
+        }
 
         $('#toggle3').find('.icon-span').toggleClass('iconRotate');
 
@@ -61,9 +85,17 @@ $(document).ready(function(){
         let content1 = $('#toggle4').parent().next();
         let allMenuContent = $('#toggle4').parent().parent().find('.inner');
 
+        if ($(content1).is(':visible') == true) {
+            $(content1).slideToggle();
+        }
+
+        if ($(content1).is(':hidden') == true) {
+
         $(allMenuContent).slideUp();
 
         $(content1).slideToggle();
+
+        }
 
         $('#toggle4').find('.icon-span').toggleClass('iconRotate');
 
